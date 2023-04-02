@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(233, 227, 227);
+
+}
+
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+    align-items:unset;
+    background-color: rgb(233, 227, 227);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav > a{
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav > a:hover{
+    color: grey;
+}
+
+.texto{
+    background-color: rgb(182, 178, 178,0.4);
+    font-size: 22px;
+    color: rgb(28, 28, 28);
+    display: flex;
+    align-items: center;
+    padding: 23px 0px;
+    padding-left: 20px;
+    width: 18%;
+    position: absolute;
+    left: 23%;
+    top: 20%;
+    z-index: -1;
+}
+
+.texto i{
+    font-size: 25px;
+    padding-right: 10px;
+}
+
+.texto2{
+    background-color: rgb(28, 28, 28);
+    font-size: 22px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: absolute;
+    top: 42%;
+   padding: 25px 0;
+    z-index: -1;
+}
+
+.texto3 {
+    background-color:rgb(182, 178, 178,0.4) ;
+    font-size: 22px;
+    color: rgb(28, 28, 28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 42%;
+    padding: 51px 0;
+    z-index: 0;
+}
+
+.fondo{
+    font-size: 50px;
+    color: rgb(245, 245, 220,0.7);
+    position: absolute;
+    bottom: 50%;
+    left: 57%;
+    z-index: -1;
+}
+
+.fondo2{
+    font-size: 75px;
+    color: rgb(245, 245, 220,0.7);
+    position: absolute;
+    bottom: 34%; 
+    left: 55%;
+    padding: 15px;
+    z-index: -1;
+}
+
+.texto4{
+    background-color: rgb(28, 28, 28);
+    font-size: 22px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    padding: 23px 0px;
+    padding-left: 20px;
+    width: 18%;
+    position: absolute;
+    left: 65%;
+    top: 75%;
+    z-index: -1;
+}
+
+img{
+    width: 31%;
+    position: absolute;
+    left: 37%;
+    bottom: 0%;
+    z-index: 0;
+}
+
+.down{
+    font-size: 22px;
+    color: rgb(28, 28, 28);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 84%;
+}
+
+.info2{
+    color: whitesmoke;
+}
+
+.info3 i{
+    font-size: 35px;
+    color: rgb(28, 28, 28);
+}
+
